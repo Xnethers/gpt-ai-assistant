@@ -52,6 +52,7 @@ const createChatCompletion = ({
   max_tokens: maxTokens,
   frequency_penalty: frequencyPenalty,
   presence_penalty: presencePenalty,
+  n: 2,
 });
 
 const createTextCompletion = ({
@@ -69,6 +70,7 @@ const createTextCompletion = ({
   max_tokens: maxTokens,
   frequency_penalty: frequencyPenalty,
   presence_penalty: presencePenalty,
+  n: 2,
   stop,
 });
 
